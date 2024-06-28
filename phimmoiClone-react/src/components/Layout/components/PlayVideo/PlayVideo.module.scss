@@ -1,0 +1,59 @@
+.container {
+    width: 980px;
+    height: 540px;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+.controls__div {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.6);
+}
+.controls__nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.controls__icons {
+    color: rgba(255, 255, 255, 0.7) !important;
+    padding-top: 0 !important;
+    margin-bottom: -5px !important;
+    padding-left: 1px !important;
+    font-size: 30px !important;
+    transition: all 0.3s ease-in-out;
+    transform: scale(0.9);
+}
+
+.controls__icons:hover {
+    color: rgba(255, 255, 255, 1) !important;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+}
+.icon-relative {
+    position: relative !important;
+}
+
+.volume__slider {
+    height: 100px !important;
+    position: absolute !important;
+    left: 57px !important;
+    bottom: 57px !important;
+    // font-size: 8px !important;
+}
+.MuiSlider-thumb {
+    height: 8 !important;
+    width: 8 !important;
+    background-color: '#fff';
+    border: '2px solid #fff';
+}

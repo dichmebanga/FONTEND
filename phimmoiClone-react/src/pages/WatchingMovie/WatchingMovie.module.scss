@@ -1,0 +1,96 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bgPrimary);
+}
+
+.episode {
+    width: 980px;
+    background-color: var(--bgAccent);
+    padding: 12px 12px 0 12px;
+
+    .item {
+        float: left;
+        margin: 0 5px 15px 5px;
+        padding: 7px;
+        color: #fdfdfd;
+        background: #3a3a3a;
+        border-radius: 3px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .active {
+        background: var(--primary);
+        color: var(--text);
+    }
+}
+
+.movie {
+    color: var(--text);
+    background-color: var(--bgAccent);
+    width: 980px;
+    padding: 0px 10px 0 10px;
+
+    .name {
+        margin: 10px 0 0 0;
+        font-size: 25px;
+        line-height: 1.3em;
+        color: var(--primary);
+        font-weight: 500;
+    }
+    .real-name {
+        font-size: 16px;
+        line-height: 16px;
+        float: none;
+        margin: 10px 0;
+        color: #b3b3b3;
+        font-weight: normal;
+    }
+
+    .short-description {
+        padding: 5px 8px;
+        margin: 5px 0 20px 0;
+        line-height: 26px;
+        font-size: 12px;
+        color: #bbb;
+        background: var(--bgIntro);
+
+        a {
+            color: var(--text);
+        }
+    }
+}
+
+.list {
+    overflow: hidden;
+    width: 100%;
+    background-color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .list-film {
+        width: 980px;
+
+        .title-box {
+            padding-bottom: 5px;
+
+            .star-item {
+                color: var(--primary);
+                font-size: 14px;
+                margin-left: 10px;
+            }
+        }
+        .title-box > p {
+            display: inline-block;
+            margin: 0 5px 0;
+            padding: 12px 5px;
+            line-height: 1.1;
+            font-weight: 400;
+            font-size: 14px;
+            color: var(--text);
+        }
+    }
+}

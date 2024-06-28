@@ -1,0 +1,48 @@
+.wrapper {
+    width: 100%;
+
+    .title {
+        font-family: Arial, Tahoma;
+        font-size: 14px;
+        background-color: #1c1c1c;
+        font-weight: 300;
+        margin-bottom: 10px;
+
+        .tab {
+            cursor: pointer;
+            border-bottom: 3px solid #383838;
+            display: inline-block;
+            margin: 0 5px 0;
+            padding: 12px 5px;
+            color: var(--text);
+        }
+        .active {
+            color: var(--primary);
+            border-bottom: 2px solid var(--solid);
+            font-size: 25px;
+            font-family: 'roboto';
+            text-transform: uppercase;
+        }
+    }
+
+    .list {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        // justify-content: space-around;
+    }
+
+    .seeall {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        margin-right: 10px;
+        .titlesee {
+            border: none;
+            background-color: #1c1c1c;
+            color: chocolate;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    }
+}

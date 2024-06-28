@@ -1,0 +1,23 @@
+.pagination-container {
+    justify-content: flex-end;
+    display: flex;
+    margin-right: 10px;
+}
+.pagination-container {
+    color: var(--text);
+    align-items: center;
+}
+
+.pagination-page {
+    border: 1px solid #4c4c4c;
+    background: #3a3a3a;
+    padding: 5px 8px;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 1.2;
+    margin: 3px;
+}
+.pagination-active {
+    border-color: var(--solid);
+    color: var(--primary);
+}

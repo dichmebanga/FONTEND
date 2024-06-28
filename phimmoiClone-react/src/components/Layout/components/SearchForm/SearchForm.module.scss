@@ -1,0 +1,27 @@
+.wrapper {
+    overflow: hidden;
+    margin: 0 0 10px 0;
+    display: flex;
+
+    width: 680px;
+    font-size: 12px;
+
+    .filter {
+        margin: 0 5px 0 0;
+        .control {
+            height: 28px;
+            width: 140px;
+            color: #fafafa;
+            background: var(--textContent);
+            padding: 5px;
+            outline: none;
+        }
+    }
+    .btn {
+        padding: 5.5px 8px;
+        font-weight: bold;
+        background: var(--textContent);
+        color: var(--text);
+        border: none;
+    }
+}

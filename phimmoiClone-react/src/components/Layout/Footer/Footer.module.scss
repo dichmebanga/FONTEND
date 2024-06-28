@@ -1,0 +1,46 @@
+.wrapper {
+    color: var(--textContent);
+    background-color: #060606;
+    font-size: 12px;
+    width: 100%;
+
+    .container {
+        padding: 0;
+        margin: 0 auto;
+        width: 980px;
+    }
+
+    .desc {
+        float: left;
+        width: 700px;
+        padding-top: 10px;
+        b {
+            color: var(--textPrimary);
+        }
+    }
+}
+
+.info {
+    float: right;
+    padding: 20px;
+    width: 260px;
+    font-size: 11px;
+    position: relative;
+
+    .column {
+        float: left;
+        display: block;
+        overflow: hidden;
+        width: 50%;
+
+        .heading {
+            font-weight: bold;
+        }
+        li {
+            margin-top: 5px;
+            list-style: none;
+            color: #b6b6b6;
+            font-weight: normal;
+        }
+    }
+}

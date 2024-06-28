@@ -1,0 +1,12 @@
+.container {
+    background: #1f1f1f none repeat scroll 0 0;
+    border-radius: 6px;
+    max-height: min((100vh - 96px) - 60px, 734px);
+    min-height: 100px;
+    list-style: outside none none;
+    padding: 5px 0 10px;
+    width: 100%;
+    z-index: 15;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}

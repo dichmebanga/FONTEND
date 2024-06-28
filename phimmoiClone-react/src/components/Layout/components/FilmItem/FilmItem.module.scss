@@ -1,0 +1,25 @@
+.movie {
+    border-bottom: 1px dashed #333;
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    margin: 0 8px;
+    padding: 0 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: var(--textIntro);
+
+    height: 48px;
+    line-height: 20px;
+    margin-top: 4px;
+
+    &:hover {
+        color: var(--textHover);
+    }
+
+    .title {
+        font-size: 12px;
+        color: var(--textName);
+    }
+}

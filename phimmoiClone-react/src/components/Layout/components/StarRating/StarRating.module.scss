@@ -1,0 +1,18 @@
+.wrapper {
+    padding: 2px 0;
+    margin-top: 6px;
+}
+.average {
+    float: right;
+    line-height: 16px;
+    margin: 0 3px;
+    .hint {
+        color: var(--textSecondary);
+        text-transform: uppercase;
+        font-size: 10px;
+    }
+    .rate_count {
+        line-height: 16px;
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,93 @@
+.item {
+    margin: 15px;
+    position: relative;
+    width: 175px;
+    float: left;
+    height: 255.6px;
+    margin-bottom: 10px;
+    list-style: none;
+    overflow: hidden;
+
+    &:hover img {
+        transform: scale(1.2);
+    }
+
+    i:after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        border: 15px solid transparent;
+        border-left: 20px solid var(--text);
+        margin: -15px 0 0 -6px;
+    }
+    .lable {
+        position: absolute;
+        padding: 5px;
+        font-size: 11px;
+        color: var(--text);
+        background: #e74c3c;
+        border-bottom: 2px solid #bb3c2f;
+        top: 5px;
+        left: 15px;
+        z-index: 2;
+        border-radius: 0;
+        font-weight: normal;
+        border-radius: 0 5px 5px 0;
+    }
+    .icon-play {
+        background: var(--primary);
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -25px 0 0 -25px;
+        border-radius: 50%;
+        opacity: 0;
+        transform: scale(1.5);
+        transition: all 0.3s ease-in-out;
+    }
+    .img {
+        height: 227px;
+        width: 180px;
+        transition: all 0.3s ease-in-out;
+        vertical-align: middle;
+        position: relative;
+        overflow: hidden;
+        margin: 15px;
+    }
+    .title {
+        position: absolute;
+        bottom: 0;
+        left: 15px;
+        right: 0;
+        background: var(--bgDetaliMovie);
+        text-align: center;
+        color: var(--text);
+        padding: 8px;
+        font-size: 14px;
+        font-family: 'roboto';
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}
+.item:hover .icon-play {
+    transform: scale(1);
+    opacity: 0.8;
+}
+.item-list {
+    margin: 0px;
+    width: 160px;
+    height: 227px;
+    margin-bottom: 10px;
+}
+.img-list {
+    width: 160px !important;
+    height: 227px !important;
+}
+
+.title-list {
+    font-size: 12px;
+}
